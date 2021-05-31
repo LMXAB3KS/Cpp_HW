@@ -1,0 +1,75 @@
+// alphabet_vowel_consonant.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//Write a C program to check whether an alphabet is vowel or consonant using switch case.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	char char1;
+	cout << "Enter any character from  A to Z or a to z : ";
+	cin >> char1;
+	switch (char1) 
+	{
+	case 'A':
+		cout << "Vowel";
+		break;
+
+	case 'E':
+		cout << "Vowel";
+		break;
+
+	case 'I':
+		cout << "Vowel";
+		break;
+
+	case 'O':
+		cout << "Vowel";
+		break;
+
+	case 'U':
+		cout << "Vowel";
+		break;
+
+	case 'a':
+		cout << "Vowel";
+		break;
+
+	case 'e':
+		cout << "Vowel";
+		break;
+
+	case 'i':
+		cout << "Vowel";
+		break;
+
+	case 'o':
+		cout << "Vowel";
+		break;
+
+	case 'u':
+		cout << "Vowel";
+		break;
+		//mfw i could have used the other alphabets to change the cout for the next line but im too lazy to XD
+	default:
+		cout << "consonant or you entered some other ascii character like a number for example";
+	}
+	// int x thingy acts as a close button but u have 2 type some shit and press enter for it to close
+	int x;
+	cout << "\n Type something and press enter to close the program." ;
+	cin >> x;
+
+	return 0;
+	
+
+}
+
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
+
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the Output window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
